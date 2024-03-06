@@ -1,0 +1,30 @@
+ㅊ
+
+- 폴더 형상 관리 무시 -
+
+
+폴더이름/
+폴더이름
+
+예) app/build                                # 앱 안의 build 폴더 무시
+
+
+- 파일 형상 관리 무시 -
+
+파일명(확장자 같이 포함)
+
+예) AppTest.java
+예) test/java/aaa/AppTest.java               # aaa 폴더 안의 AppTest.java 파일 무시
+
+
+- 특정 확장자 모두 무시 -
+
+*.확장자                       # * : 모두
+
+예) *.properties                             
+
+-* 활용한 무시
+
+예) test/java/*/AppTest.java                 # java 폴더 다음에 오는 폴더 안에 있는 AppTest.java 파일을 무시
+
+예) test/java/**/AppTest.java                # java 폴더 다음에 java 폴더 포함 모든 하위 폴더 안에 있는 AppTest.java 파일을 무시
